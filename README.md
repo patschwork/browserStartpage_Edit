@@ -92,4 +92,4 @@ Go to the folder of <browserStartpage_edit>
 Open a browser with the adress http://localhost:8080
 
 # Notes
-The tool makes use of the json-editor. This may not be perfect, but it's enough of the most cases. You can also copy (and re-paste) the raw JSON to an IDE which has good JSON capabilities 😉
+The tool makes use of the json-editor. This may not be perfect, but it's enough for the most cases. You can also copy (and re-paste) the raw JSON to an IDE which has good JSON capabilities (e.g. VSCode) 😉
