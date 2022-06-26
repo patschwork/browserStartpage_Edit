@@ -37,3 +37,30 @@ cd browserStartpage_Edit_github_tmp
 cp -R * <folder_you_want>/browserStartpage_edit/
 ```
 
+You may erase `/tmp/browserStartpage_Edit_github_tmp` now
+
+In my environment the content of browserStartpage_edit is in the subfolder of browserStartpage:
+```
+├── assets
+│   ├── css
+│   ├── js
+│   ├── qr-codes
+│   └── thumbnails
+├── browserStartpage_edit   <-------------
+│   ├── assets
+│   ├── commands
+│   ├── config
+│   ├── controllers
+│   ├── mail
+│   ├── messages
+│   ├── models
+│   ├── runtime
+│   ├── tests
+│   ├── vagrant
+│   ├── vendor
+│   ├── views
+│   ├── web
+│   └── widgets
+├── config
+└── data
+```
