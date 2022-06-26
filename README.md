@@ -64,3 +64,32 @@ In my environment the content of browserStartpage_edit is in the subfolder of br
 ├── config
 └── data
 ```
+# Setup
+To work properly, the tool need some adjustments
+
+Open the file `/browserStartpage_edit/config/params.php`
+and set the parameter to your environment
+```php
+<?php
+
+return [
+    'adminEmail' => 'admin@example.com',
+    'senderEmail' => 'noreply@example.com',
+    'senderName' => 'Example.com mailer',
+    'data_file_path' => '/tmp/data.json',    // <--------------------- e.g. <folder_of_browserStartpage>/data/data.json
+    'downloadpath_logos' => '/tmp/',         // <--------------------- e.g. <folder_of_browserStartpage>/assets/thumbnails/
+];
+```
+# Test / Run
+PHP is able to run a local dev server.
+
+Go to the folder of <browserStartpage_edit>
+
+```sh
+./yii serve
+```
+
+Open a browser with the adress http://localhost:3000
+
+# Notes
+The tool makes use of the json-editor. This may not be perfect, but it's enough of the most cases. You can also copy (and re-paste) the raw JSON to an IDE which has good JSON capabilities 😉
